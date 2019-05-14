@@ -14,7 +14,7 @@ function distanceTravelledInFeet(location1, location2) {
   if (location1 > location2) {
     return (location1 - location2) * 264;
   } else {
-    return (location2 - location1) * 264 ;
+    return (location2 - location1) * 264;
   }
 }
 
